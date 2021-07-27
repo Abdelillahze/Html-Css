@@ -170,7 +170,8 @@ Header .links ul li:not(:last-child) {
 .landing {
     background-image: url("../images/zza-1920x1080.jpg");
     background-size: cover;
-    height: calc(100vh - 57px)
+    height: calc(100vh - 57px);
+    background-attachment: fixed;
 }
 
 .landing .intro-text {
